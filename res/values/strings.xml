@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JoEvents</string>
+    <string name="menu_settings">Settings</string>
+    <string name="lbl_email">example@example.com</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_top">Please Loggin First</string>
+    <string name="btn_login">Login</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_company_user">CompanyUserActivity</string>
+    <string name="addRow">Add Row</string>
+    <string name="scanner">Scanner</string>
+    <string name="StartScanning">Start scanning</string>
+    <string name="back">back</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_user_tickets">UserTicketsActivity</string>
+    <string name="title_activity_scanner">ScannerActivity</string>
+    <string name="result"></string>
+    <string name="title_activity_login_redirect">LoginRedirect</string>
+    <string name="login_back">back</string>
+    <string name="redirect_txt">Wrong credentials.\n  Please try again.</string>
+    <string name="events_title">\nWelcome to JO Events\nEvents list\n</string>
+    <string name="scanning">Starting Scanner</string>
+</resources>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/fb_blue"
+    tools:context=".LoginActivity" >
+	<Button
+	    android:id="@+id/btn_login"
+	    style="@style/AppTheme"
+	    android:layout_width="100dp"
+	    android:layout_height="50dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="136dp"
+	    android:background="@color/white"
+	    android:text="@string/btn_login" />
+	<TextView
+	    android:id="@+id/lbl_top"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="61dp"
+	    android:text="@string/lbl_top"
+	    android:textColor="@color/white"
+	    android:textSize="16sp"
+	    android:typeface="sans" />
+	<EditText
+	    android:id="@+id/txt_password"
+	    android:layout_width="150dp"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/btn_login"
+	    android:layout_alignRight="@+id/lbl_top"
+	    android:layout_marginBottom="110dp"
+	    android:ems="10"
+	    android:hint="@string/lbl_password"
+	    android:inputType="textPassword"
+	    android:textColor="@color/white"
+	    android:textColorHint="@color/white"
+	    android:textSize="18sp" />
+	<EditText
+	    android:id="@+id/txt_email"
+	    android:layout_width="150dp"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/txt_password"
+	    android:layout_alignLeft="@+id/txt_password"
+	    android:ems="10"
+	    android:hint="@string/lbl_email"
+	    android:inputType="textEmailAddress"
+	    android:textColor="@color/white"
+	    android:textColorHint="@color/white"
+	    android:textSize="18sp" />
+</RelativeLayout>
