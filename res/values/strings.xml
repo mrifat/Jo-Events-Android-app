@@ -21,4 +21,8 @@
     <string name="redirect_txt">Wrong credentials.\n  Please try again.</string>
     <string name="events_title">\nWelcome to JO Events\nEvents list\n</string>
     <string name="scanning">Starting Scanner</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_users">UsersActivity</string>
+    <string name="btn_events">Events</string>
+    <string name="btn_tickets">Tickets</string>
 </resources>

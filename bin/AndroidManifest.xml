@@ -44,5 +44,13 @@
             android:name="com.example.joevents.LoginRedirect"
             android:label="@string/title_activity_login_redirect" >
         </activity>
+        <activity
+            android:name="com.example.joevents.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.example.joevents.UsersActivity"
+            android:label="@string/title_activity_users" >
+        </activity>
     </application>
 </manifest>

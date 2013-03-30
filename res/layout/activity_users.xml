@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fb_blue"
+    tools:context=".UsersActivity" >
+    <Button
+        android:id="@+id/btn_events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="185dp"
+        android:background="@color/white"
+        android:text="@string/btn_events" />
+    <Button
+        android:id="@+id/btn_tickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_events"
+        android:layout_marginLeft="48dp"
+        android:layout_toRightOf="@+id/btn_events"
+        android:background="@color/white"
+        android:text="@string/btn_tickets" />
+</RelativeLayout>
