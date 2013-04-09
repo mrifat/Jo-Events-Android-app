@@ -1,0 +1,7 @@
+== Jo Events
+
+Jo Events Android application is the key feature of the project(mrifat.github.io/Jo-Events).
+
+The Android application is a ticket holder/scanner, to use the android application you must first install
+zxing barcode scanner application(For now) since we use it to scan our the QR code tickets and off course
+you must have an internet connection since all the hard work is done on the server side.
